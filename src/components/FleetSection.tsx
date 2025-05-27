@@ -1,14 +1,24 @@
 import React, { useState } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import semiTruckImage from '../assets/photo_2025-05-16_02-34-162.jpg';
-
- const fleetData = [
+// Adjust the path if the file is deeper or higher in the folder
+// import { Link } from '../components/Link'; // Uncomment if you have a custom Link component
+// import { Link } from 'react-router-dom'; // Uncomment if using React Router
+// import { Link } from 'next/link'; // Uncomment if using Next.js
+// import { Link } from 'react-scroll'; // Uncomment if using react-scroll for smooth scrolling
+import { Link } from 'react-scroll'; // Uncomment if using react-scroll for smooth scrolling
+// Adjust the import based on your routing library
+import { useState } from 'react';
+// Adjust the import based on your routing library
+// Adjust the import based on your routing library
+// Adjust the import based on your routing library
+// Adjust the import based on your routing library
+// Adjust the import based on your routing library        
+const fleetData = [
   {
     id: 1,
     type: "Semi Truck",
-    image: "/images/photo_2025-05-16_02-23-26.jpg"
-,
-    description: "Our semi trucks are the backbone of our long-haul operations...",
+   image: "https://images.pexels.com/photos/1427541/pexels-photo-1427541.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     specs: ["53' Trailers Available", "GPS Tracking", "Climate-Controlled", "Sleeper Cabins"]
   },
   {
