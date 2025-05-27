@@ -6,7 +6,8 @@ import semiTruckImage from '../assets/photo_2025-05-16_02-34-162.jpg';
   {
     id: 1,
     type: "Semi Truck",
-    image: semiTruckImage,
+    image: "src/assets/photo_2025-05-16_02-34-162.jpg"
+,
     description: "Our semi trucks are the backbone of our long-haul operations...",
     specs: ["53' Trailers Available", "GPS Tracking", "Climate-Controlled", "Sleeper Cabins"]
   },
