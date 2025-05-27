@@ -1,5 +1,7 @@
 import React from 'react';
 import { Shield, Award, Clock, Truck } from 'lucide-react';
+import FleetImage from '../assets/photo_2025-05-16_02-23-26.jpg'; 
+// Adjust the path if the file is deeper or higher in the folder
 
 
 
@@ -22,13 +24,12 @@ const AboutSection: React.FC = () => {
           {/* Left Column - Image */}
           <div className="relative">
             <div className="aspect-video rounded-lg overflow-hidden shadow-xl">
-              <img 
-                src="src/assets/photo_2025-05-16_02-23-26.jpg" 
-                
-                
-                alt="Exodus Trucking Fleet" 
-                className="w-full h-full object-cover"
-              />
+            <img 
+  src={FleetImage} 
+  alt="Exodus Trucking Fleet" 
+  className="w-full h-full object-cover"
+/>
+
             </div>
             <div className="absolute -bottom-6 -right-6 bg-red-700 text-white p-6 rounded-lg shadow-lg">
               <div className="text-4xl font-bold">15+</div>
