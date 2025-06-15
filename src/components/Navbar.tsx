@@ -24,10 +24,11 @@ const Navbar: React.FC = () => {
           <Link href="/" className="flex items-center space-x-2">
           <div className="relative w-10 h-10 flex items-center justify-center bg-red-700 rounded-md overflow-hidden">
   <img
-    src="src/assets/logo.jpg"
-    alt="Logo"
-    className="w-12 h-12 object-contain"
-  />
+  src="/logo.jpg"
+  alt="Logo"
+  className="w-12 h-12 object-contain"
+/>
+
 </div>
 
             <div className="flex flex-col">
