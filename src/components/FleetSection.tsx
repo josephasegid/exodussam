@@ -18,21 +18,21 @@ const fleetData = [
   {
     id: 2,
     type: "Box Truck",
-    image: "https://images.pexels.com/photos/1427541/pexels-photo-1427541.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    image: "/truck 2.jpg",
     description: "Perfect for urban deliveries and smaller loads, our box trucks provide efficient transportation for time-sensitive shipments.",
     specs: ["Lift Gates Available", "Temperature Control Options", "14'-26' Lengths", "5,000-10,000 lb Capacity"]
   },
   {
     id: 3,
     type: "Flatbed Truck",
-    image: "https://images.pexels.com/photos/93398/pexels-photo-93398.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    image: "/truck 3.jpg",
     description: "Ideal for oversized loads and construction materials, our flatbed trucks offer versatile hauling solutions for various industries.",
     specs: ["Multiple Tie-Down Points", "Extended Length Options", "Up to 48' Deck", "Heavy Load Capacity"]
   },
   {
     id: 4,
     type: "Refrigerated Truck",
-    image: "https://images.pexels.com/photos/2519484/pexels-photo-2519484.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    image: "/truck 4.jpg",
     description: "Temperature-controlled transportation for perishable goods, pharmaceuticals, and other climate-sensitive freight.",
     specs: ["Precise Temperature Control", "Continuous Monitoring", "Multi-Temperature Zones", "Backup Power Systems"]
   }
