@@ -8,6 +8,7 @@ import TestimonialsSection from './components/TestimonialsSection';
 import ContactSection from './components/ContactSection';
 import RecruitmentSection from './components/RecruitmentSection';
 import Footer from './components/Footer';
+import { Analytics } from "@vercel/analytics/next"
 
 function App() {
   useEffect(() => {
@@ -32,6 +33,8 @@ function App() {
       <RecruitmentSection />
       <ContactSection />
       <Footer />
+      <Analytics />
+      {/* Add any additional scripts or components here */}
     </div>
   );
 }
