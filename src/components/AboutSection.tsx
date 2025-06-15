@@ -21,7 +21,7 @@ const AboutSection: React.FC = () => {
             <div className="aspect-video rounded-lg overflow-hidden shadow-xl">
        <div className="mx-auto mb-3">
   <img
-    src="public/logo.jpg"
+    src="/logo.jpg"
     alt="Divider"
     className="max-w-full h-auto mx-auto"
   />
