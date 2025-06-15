@@ -4,10 +4,16 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 const fleetData = [
   {
     id: 1,
-    type: "Semi Truck",
-    image: "https://images.pexels.com/photos/2659054/pexels-photo-2659054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    description: "Our semi trucks are the backbone of our long-haul operations, equipped with the latest safety features and comfort amenities for our drivers.",
-    specs: ["53' Trailers Available", "GPS Tracking", "Climate-Controlled", "Sleeper Cabins"]
+  type: "Semi Truck",
+  image: "public/truck.jpg",
+  description:
+    "Our semi trucks are the backbone of our long-haul operations, equipped with the latest safety features and comfort amenities for our drivers.",
+  specs: [
+    "53' Trailers Available",
+    "GPS Tracking",
+    "Climate-Controlled",
+    "Sleeper Cabins"
+  ]
   },
   {
     id: 2,

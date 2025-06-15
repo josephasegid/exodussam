@@ -8,14 +8,7 @@ const AboutSection: React.FC = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">About Exodus Trucking</h2>
-         <div className="w-24 mx-auto mb-6">
-  <img
-    src="public/truck.jpg"
-    alt="Divider"
-    className="w-full h-auto object-contain"
-  />
-</div>
-
+          <div className="w-24 h-1 bg-red-700 mx-auto mb-6"></div>
           <p className="max-w-3xl mx-auto text-lg text-gray-600">
             Dedicated to excellence in transportation since our founding, we've built our reputation on reliability, integrity, and exceptional service.
           </p>
@@ -26,11 +19,14 @@ const AboutSection: React.FC = () => {
           {/* Left Column - Image */}
           <div className="relative">
             <div className="aspect-video rounded-lg overflow-hidden shadow-xl">
-              <img 
-                src="https://images.pexels.com/photos/2659054/pexels-photo-2659054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                alt="Exodus Trucking Fleet" 
-                className="w-full h-full object-cover"
-              />
+       <div className="mx-auto mb-3">
+  <img
+    src="public/logo.jpg"
+    alt="Divider"
+    className="max-w-full h-auto mx-auto"
+  />
+</div>
+
             </div>
             <div className="absolute -bottom-6 -right-6 bg-red-700 text-white p-6 rounded-lg shadow-lg">
               <div className="text-4xl font-bold">15+</div>
