@@ -8,7 +8,14 @@ const AboutSection: React.FC = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">About Exodus Trucking</h2>
-          <div className="w-24 h-1 bg-red-700 mx-auto mb-6"></div>
+         <div className="w-24 mx-auto mb-6">
+  <img
+    src="public/truck.jpg"
+    alt="Divider"
+    className="w-full h-auto object-contain"
+  />
+</div>
+
           <p className="max-w-3xl mx-auto text-lg text-gray-600">
             Dedicated to excellence in transportation since our founding, we've built our reputation on reliability, integrity, and exceptional service.
           </p>
