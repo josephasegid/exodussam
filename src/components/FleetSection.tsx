@@ -5,7 +5,7 @@ const fleetData = [
   {
     id: 1,
   type: "Semi Truck",
-  image: "public/truck.jpg",
+  image: "/truck.jpg",
   description:
     "Our semi trucks are the backbone of our long-haul operations, equipped with the latest safety features and comfort amenities for our drivers.",
   specs: [
