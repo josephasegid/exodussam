@@ -8,7 +8,7 @@ import TestimonialsSection from './components/TestimonialsSection';
 import ContactSection from './components/ContactSection';
 import RecruitmentSection from './components/RecruitmentSection';
 import Footer from './components/Footer';
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   useEffect(() => {
